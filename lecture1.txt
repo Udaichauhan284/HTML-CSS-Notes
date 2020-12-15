@@ -1,2 +1,45 @@
-Hello Every One This is starting of Html CSS notes
-udai chauhan
+<---- HTML CSS Notes || Lecture 1 ---->
+
+-> HTML is Markup Language not a programing Language and it stand for
+    Hyper Text Markup Language <HTML>, Markup Language is where we give some tags 
+    and element and web browser show those tags and elements.
+
+-> Elements:- These are the individual components of HTML Documents
+-> Tags:- Combination of tags can form a Element
+There are two Tags <Opening Tags> and <Closing Tags>
+<tagname> </tagname>
+There is also non-closing tags like img tag <img>
+
+-> Attributes: With a help of Attributes we can give additional propering to element
+    EX:- <img src="location.jpg"> width="350px" height="550px">
+-> Syntax of Attributes: <tagname Attributename = "attributesvalue">
+
+-> Boolean Attributes: <input type="text" require> require is Boolean Attr.
+                    <input type="text" disabled> disabled is Boolean Attr.
+id :- unique name for element
+class :- non uniques for element 
+
+-> Document Structure
+<!DOCTYPE html> ------ Document type is html
+<html>
+<head>
+<title>Title of Website</title>
+<link href=""> -- used to link external CSS and JS
+</head>
+<body>
+<h1>Namaste World</h1> --- heading tags
+</body>
+</html>
+
+-> Entities in HTML
+    Display reversed charaters in HTML
+    Like:- 
+    To display <h1> we can use Entities
+    for right arrow > we can use &lt;
+    left arrow < we can use &gt;
+
+-> Used to Display 
+    . Reserved charaters
+    . Special charaters
+    . Emojis
+    . Symbols
