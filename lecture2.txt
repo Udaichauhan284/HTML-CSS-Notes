@@ -13,4 +13,57 @@ Lecture 2 | HTML notes
 -> Opening a webpage into new tab
     use target="_blank"
     <a href="https://www.google.com" target="_blank">Google</a>
+
+-> IMG tag
+    <img src="img.jpeg" alt="This is image" width="" height="">
+    src :- here we put image source 
+    alt :- alternative text when image will not load
+
+-> Videp tag
+    <video src="video.mp4" alt="This is video file" width="400px" height="450px" controls></video>
     
+    -> Some attibutes in <video>
+    <video src="" autoplay></video>
+    This is automatically play the video when webpage load and we cant control it.
+
+    -> controls :- we can use to control the videos 
+    -> loop
+    -> muted
+    -> poster :- this use for thumbnail
+       <video src="" poster="img.jpg"></video>
+
+-> <iframe> Element
+    by this we can display other website in our website. This is also known as Embbeding
+
+-> Table 
+<table>
+    <thead> --Table head
+        <tr> --Table Row
+            <th>Name</th> --for heading in Cell
+            <th>LName</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <tbody> --Table body
+        <tr>
+            <td> --Table data
+            Udai </td>
+            <td> Chauhan </td>
+            <td> Male </td>
+        </tr>
+        <tr>
+            <td> Sandesh </td>
+            <td> Kumar </td>
+            <td> Male </td>
+        </tr>
+        <tr> 
+            <td> Priya </td>
+            <td> Singh </td>
+            <td Female </td>
+        </tr>
+    </tbody>
+    <tfoot> --table foot
+    <th colspan="3">Male and Female</th> --colspan to combined the column, same with rowspan for combining the row
+    </tfoot>
+</table
+
