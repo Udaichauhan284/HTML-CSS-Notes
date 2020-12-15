@@ -1,0 +1,16 @@
+Lecture 2 | HTML notes
+
+-> HyperLink
+    in this we use <a> "Anchor tag"
+    <a href="www.google.com>Google</a> 
+    . href:- hypertext reference
+    
+-> URL : Unifrom Resource Locator "Unique Location"
+    Two type of URL
+    1. Absolute :- means start to end path like- root/folder1/folder2/destination.HTML
+    2. Relative :- means current codng file to destination file like Current File/target folder/destination.HTML
+
+-> Opening a webpage into new tab
+    use target="_blank"
+    <a href="https://www.google.com" target="_blank">Google</a>
+    
