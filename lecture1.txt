@@ -43,3 +43,39 @@ class :- non uniques for element
     . Special charaters
     . Emojis
     . Symbols
+-> Syntax of Entities
+   &entity_name; or &#entity_number;
+
+-> Comments in HTML
+<!-- Hello this is comment -->
+
+-> Difference between <b> Bold Tag and <strong> Strong tag
+   they do same thing in browser but, The <strong> element is for content that is of greater
+   importance, while the <b> element is used to draw attention to text without indicating that
+   it's more important.
+
+-> Lists 
+   Types of Lists
+   1. Ordered List
+   2. Description List
+   3. Unodered List
+
+-> Ordered List 
+    used to show things in steps/Order, May be Numerical, Alphabatical, Roman Number 
+    Syntax 
+        <ol> or <ol type="a> or <ol type="A"> or <ol type="i"> or <ol type="I">
+            <li></li>
+            <li><li>
+        </ol>
+
+-> Unodered List 
+    used to show Unodered things .
+    Syntax 
+    <ul>
+        <li></li>
+        <li></li>
+    </ul>
+
+Thank you and See you in Lecture 2
+for more Understanding please go and watch "Apna College" youtube channel Web Development Course.
+
