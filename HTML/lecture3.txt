@@ -1,0 +1,26 @@
+Form: thus is used to take input from user and send details to server
+Elements in Form: <input> Attributes type="text"
+                                     name="firstname"
+                                     value ="male"
+<input type="text"> used to take input as text
+<input type="password"> for password
+<input type="radio"> for radio button //in this we put name= same for both field like
+<p>Male<input type="radio" name="gender" id="gender"> Female<input type="radio" name="gender" id="gender">
+
+<input type="checkbox"> 
+<input type="file"> for uploading button
+<input type="submit"> used for submit button
+<input type="reset"> for reseting the input field
+<input type="image">
+<input type="date" name="date" id="date"> for taking Date
+
+<textarea col="56" rows="45"> used for writing review 
+
+//dropdown
+<select>
+    <option value="delhi">Delhi</option>
+    <option value="mumbai">Mumbai</option>
+</select>
+
+//required : this tell the user to entry the details dont submit it empty
+<input type="text" name="name" id="username" required>

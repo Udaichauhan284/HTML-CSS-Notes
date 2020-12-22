@@ -1,0 +1,11 @@
+Semantic Tag
+ - Tags which clearly defines the Content
+    <h1> - used to show important text
+    <h6> - used to show less important text
+    <nav> - used to show navigation related info
+ 
+Non Semantic Tags
+ - Tags which tells nothing about the Content
+    used for gropuing the element
+    <div> : it is block level element
+    <span> : it is inline element
