@@ -1,0 +1,43 @@
+--> Property of CSS <--
+
+-Colors 
+color:
+background-color:
+border-color:
+
+Values in colour Property
+Name: approx 140 diff color
+
+-RGB (Red green blue)
+also RGBA A- alpha: used to define opacity
+
+-background img
+ background-image: url("image location");
+-repeat
+ background-repeat: repeat-x; it will repeat on x-axis
+ background-repeat: repeat-y; it will repeat on y-axis
+
+- text-align: left;
+- text-align: right;
+- text-align: center;
+- text-align: justify;
+
+- text-decoration: overline;
+- text-decoration: line-through;
+- text-decoration: underline;
+- text-decoration: underline overline;
+
+- text-transform:capitalize;
+- text-transform:uppercase;
+- text-transform:lowercase;
+- text-transform:none;
+- text-transform:full-width;
+
+- Margin / Padding
+margin-top:10px;
+margin-right:5px;
+margin-bottom:10px;
+margin-left:5px;
+
+//shorthand: margin: 10px 5px 10px 5px;
+padding: 10px 5px 10px 5px;

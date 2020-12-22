@@ -1,0 +1,96 @@
+--> CSS <--  Cascading Style Sheet
+- used to design beautiful webpages
+
+Syntax of CSS
+- Property : Value
+- value can be defined and also pre-defined
+like : color:green
+       font-family: "Time New Roman", serif
+       text-align: center
+
+-- Link CSS in HTML
+- 3 ways
+- Inline
+   <tagName style="Property:value">
+   <p style="color: red">Udai</p>
+
+-Internal 
+Inside <head> tag we use <style></style>
+<head>
+    <style>
+        p{
+            color:red;
+        }
+    </style>
+</head>
+
+-External
+ we create new document and write all CSS there and link to HTML 
+<head>
+<link href="css/style.css" type="text/stylesheet" rel="stylesheet">
+</head>
+
+- Combined Selector 
+h1,p,h1{
+    Property:value;
+    }
+
+- Type Selector
+<h1>Hello World</h1>
+h1{
+    Property:value;
+}
+
+-Class Selector
+<h1 class="className">
+.className {
+
+}
+
+-Id Selector
+<h1 id="idName">
+#idName{
+
+}
+
+-Attribute Selector
+<a href="www.google.com">
+
+a[href="www.google.com"]{
+    Property:value;
+}
+
+-Pseudo Class Selector
+Used to style states of Element
+:hover, :visted
+
+Selector: Pseudo-class {
+    Property:value;
+}
+
+- Pseudo Element Selector
+<p>Udai........
+Chauhan..</p> ,  basically i want changement in first line of <p>
+
+p::first-line{
+    color:brown
+}
+
+- Combined Selector
+<article>
+<h1>Heading</h1>
+<p> Hello World</p>
+<span> Namaste </span>
+</article>
+
+i want change in p tags 
+article > p {
+    Property: value;
+}
+
+--Universal Selector 
+used to select all
+*{
+    Property:value;
+}
+

@@ -1,0 +1,84 @@
+- DOM (Document Object Model)
+tree like structure
+
+How CSS works ?
+
+Load HTMl --> Parse HTML --> Create DOM Tree -----> Display
+                  |                   | Attack style
+                  |                   | to DOM model
+              Load CSS --> Parse CSS---
+
+- Units in CSS
+A css unit determines the size of a property you're setting for an
+element or its content
+
+Relative:- %, em, rem, vh, vw, vmin, vmax
+Absolute:- cm, mm, px, pt, pc
+
+Absolute Units
+Absolute units are fixed and they are not Relative to anything else,
+and are generally considered to always be the same size.
+
+-cm : 1cm = 96px/2.54
+-mm : millimeters
+-in : inches(1in = 96px= 2.54cm)
+-px : pixels(1px = 1/96th of 1in)
+-pt : points(1pt = 1/72 of 1in)
+-pc : picas(1pc = 12 pt)
+
+Relative Units
+Relative length units are Relative to something else, perhaps the size of the
+parent element's font, or the size of the viewport.
+
+-% : Relative to the parent element
+-em : Relative to the font-size of the element(2em means 2 times the size of the current font)
+-rem : font size of the root element
+-vw : Relative to 1% of the width of the viewport(browser window ki width ka 1 percent)
+-vh : Relative to 1% of the height of the viewport(browser window ki height ka 1 percent)
+-vmin : 1% of the viewport's smaller dimension.
+-vmax : 1% of the viewport's larger dimension.
+
+-- Box Model
+every element is surrounding with Box
+
+Margin vs Padding
+in margin the color of background did not show
+
+<html>
+<head>
+<style>
+    .wrapper{
+        background-color:brown;
+    }
+    .box1,box2{
+        width:100px;
+        height:100px;
+    }
+    .box1{
+        background-color:blue;
+        margin: 20px; /*blue color did not show on margin */
+    }
+    .box2{
+        background-color:red;
+        padding: 20px;
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box1>Box1</div>
+        <div class="box2>Box2</div>
+    </div>
+</body>
+</html>
+
+--list style image
+<ul>
+<li>Hello</li>
+</ul>
+
+<style>
+ul li {
+    li-style-image: url("images/hello.jpg");
+}
+</style>
